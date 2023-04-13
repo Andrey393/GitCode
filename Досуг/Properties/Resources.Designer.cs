@@ -79,5 +79,55 @@ namespace Досуг.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Конкурс_спортивной_гимнастики_jpg {
+            get {
+                object obj = ResourceManager.GetObject("Конкурс спортивной гимнастики.jpg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Музыкальный_детсикй_конкурс_jpg {
+            get {
+                object obj = ResourceManager.GetObject("Музыкальный детсикй конкурс.jpg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Музыкальный_конкурс_любителей_джаза_jpg {
+            get {
+                object obj = ResourceManager.GetObject("Музыкальный конкурс любителей джаза.jpg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Состязание_единоборцев_jpg {
+            get {
+                object obj = ResourceManager.GetObject("Состязание единоборцев.jpg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Физкультурно_спортивное_мероприятие_jpg {
+            get {
+                object obj = ResourceManager.GetObject("Физкультурно-спортивное мероприятие.jpg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

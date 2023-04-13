@@ -124,4 +124,19 @@
   <data name="picture" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\picture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Конкурс спортивной гимнастики.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Конкурс спортивной гимнастики.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Музыкальный_детсикй_конкурс.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Музыкальный детсикй конкурс.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Музыкальный_конкурс_любителей_джаза" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Музыкальный конкурс любителей джаза.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Состязание_единоборцев" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Состязание единоборцев.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Физкультурно_спортивное_мероприятие" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Физкультурно-спортивное мероприятие.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

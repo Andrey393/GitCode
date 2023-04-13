@@ -19,6 +19,7 @@ namespace Досуг.View
             Class.Helper.DB = new Entity.DBEventEntities();
 
         }
+
         string path = Application.StartupPath;
         public List<Entity.Event> ListEvent;
         private void EventForm_Load ( object sender, EventArgs e )
@@ -39,15 +40,17 @@ namespace Досуг.View
                 }
                 else
                 {
-                    fullImage = path + "\\Resources\\" + photo;
-                    if(File.Exists(fullImage ) )
-                    {
-                        bitmap = new Bitmap(fullImage);
-                    }
-                    else
-                    {
-                        bitmap = Properties.Resources.picture;
-                    }
+                    // Задайте название изображения в ресурсах
+                    bitmap = (Bitmap) Properties.Resources.ResourceManager.GetObject ( photo );
+                    //fullImage = path + "\\Resources\\" + photo;
+                    //if (File.Exists ( fullImage ))
+                    //{
+                    //    bitmap = new Bitmap ( fullImage );
+                    //}
+                    //else
+                    //{
+                    //    bitmap = Properties.Resources.picture;
+                    //}
                 }
                 dataGridEvent.Rows [row].Cells [0].Value = bitmap;
                 dataGridEvent.Rows [row].Cells [1].Value = item.EventName;
