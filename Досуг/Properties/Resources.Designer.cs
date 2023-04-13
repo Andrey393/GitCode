@@ -22,7 +22,7 @@ namespace Досуг.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Досуг.Properties {
         ///   Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Досуг.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Досуг.Properties {
         ///   обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Досуг.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap events_logo {
+        public static System.Drawing.Bitmap events_logo {
             get {
                 object obj = ResourceManager.GetObject("events_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,7 @@ namespace Досуг.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap picture {
+        public static System.Drawing.Bitmap picture {
             get {
                 object obj = ResourceManager.GetObject("picture", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,7 @@ namespace Досуг.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Конкурс_спортивной_гимнастики_jpg {
+        public static System.Drawing.Bitmap Конкурс_спортивной_гимнастики_jpg {
             get {
                 object obj = ResourceManager.GetObject("Конкурс спортивной гимнастики.jpg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +93,7 @@ namespace Досуг.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Музыкальный_детсикй_конкурс_jpg {
+        public static System.Drawing.Bitmap Музыкальный_детсикй_конкурс_jpg {
             get {
                 object obj = ResourceManager.GetObject("Музыкальный детсикй конкурс.jpg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +103,7 @@ namespace Досуг.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Музыкальный_конкурс_любителей_джаза_jpg {
+        public static System.Drawing.Bitmap Музыкальный_конкурс_любителей_джаза_jpg {
             get {
                 object obj = ResourceManager.GetObject("Музыкальный конкурс любителей джаза.jpg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,9 +113,9 @@ namespace Досуг.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Состязание_единоборцев_jpg {
+        public static System.Drawing.Bitmap Состязание_единоборцев {
             get {
-                object obj = ResourceManager.GetObject("Состязание единоборцев.jpg", resourceCulture);
+                object obj = ResourceManager.GetObject("Состязание_единоборцев", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace Досуг.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Физкультурно_спортивное_мероприятие_jpg {
+        public static System.Drawing.Bitmap Физкультурно_спортивное_мероприятие {
             get {
-                object obj = ResourceManager.GetObject("Физкультурно-спортивное мероприятие.jpg", resourceCulture);
+                object obj = ResourceManager.GetObject("Физкультурно_спортивное_мероприятие", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

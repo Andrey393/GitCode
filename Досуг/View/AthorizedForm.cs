@@ -22,18 +22,17 @@ namespace Досуг
         
         void CreateCaptcha ( )
         {
-            Bitmap bit = new Bitmap ( pictureBoxCaptcha.Width, pictureBoxCaptcha.Height );
-            Graphics g = Graphics.FromImage ( bit );
-            string captchaText = "";
-            Random random = new Random ( );
+            Bitmap bitmap =new Bitmap( pictureBoxCaptcha.Width, pictureBoxCaptcha.Height );
+            Graphics g = Graphics.FromImage( bitmap );
+            string captcha = "";
+            Random random=new Random();
             for (int i = 0; i < 6; i++)
             {
-                char c = (char) random.Next ( 62, 90 );
-                captchaText += c;
+                char c = (char) random.Next ( 42, 90 );
+                captcha += c;
             }
-            g.DrawString ( captchaText, new Font ( "Arial", 24 ), new SolidBrush ( Color.Black ), 10, 10 );
-            pictureBoxCaptcha.Image = bit;
-                
+            g.DrawString(captcha,new Font("Arial",24),new SolidBrush(Color.Black),10,10);
+            pictureBoxCaptcha.Image = bitmap;
         }
 
         private void buttonEnter_Click ( object sender, EventArgs e )
@@ -60,6 +59,11 @@ namespace Досуг
                 this.Hide ();
             }
                 
+        }
+
+        private void AutorizedForm_Load ( object sender, EventArgs e )
+        {
+            CreateCaptcha ( );
         }
     }
 }

@@ -60,7 +60,7 @@ namespace Досуг
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(689, 100);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -119,7 +119,7 @@ namespace Досуг
             this.labelNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelNumber.Location = new System.Drawing.Point(130, 93);
             this.labelNumber.Name = "labelNumber";
-            this.labelNumber.Size = new System.Drawing.Size(155, 18);
+            this.labelNumber.Size = new System.Drawing.Size(156, 18);
             this.labelNumber.TabIndex = 0;
             this.labelNumber.Text = "Номер";
             this.labelNumber.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -131,7 +131,7 @@ namespace Досуг
             this.labelPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelPassword.Location = new System.Drawing.Point(130, 174);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(155, 18);
+            this.labelPassword.Size = new System.Drawing.Size(156, 18);
             this.labelPassword.TabIndex = 1;
             this.labelPassword.Text = "Пароль";
             this.labelPassword.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -139,7 +139,7 @@ namespace Досуг
             // textBoxNumber
             // 
             this.textBoxNumber.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBoxNumber.Location = new System.Drawing.Point(291, 96);
+            this.textBoxNumber.Location = new System.Drawing.Point(292, 96);
             this.textBoxNumber.Name = "textBoxNumber";
             this.textBoxNumber.Size = new System.Drawing.Size(197, 20);
             this.textBoxNumber.TabIndex = 2;
@@ -147,15 +147,16 @@ namespace Досуг
             // textBoxPassword
             // 
             this.textBoxPassword.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBoxPassword.Location = new System.Drawing.Point(291, 177);
+            this.textBoxPassword.Location = new System.Drawing.Point(292, 177);
             this.textBoxPassword.Name = "textBoxPassword";
+            this.textBoxPassword.PasswordChar = '*';
             this.textBoxPassword.Size = new System.Drawing.Size(197, 20);
             this.textBoxPassword.TabIndex = 3;
             // 
             // textBoxCaptcha
             // 
             this.textBoxCaptcha.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBoxCaptcha.Location = new System.Drawing.Point(291, 274);
+            this.textBoxCaptcha.Location = new System.Drawing.Point(292, 274);
             this.textBoxCaptcha.Name = "textBoxCaptcha";
             this.textBoxCaptcha.Size = new System.Drawing.Size(197, 20);
             this.textBoxCaptcha.TabIndex = 4;
@@ -164,7 +165,7 @@ namespace Досуг
             // 
             this.buttonEnter.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonEnter.Location = new System.Drawing.Point(291, 349);
+            this.buttonEnter.Location = new System.Drawing.Point(292, 349);
             this.buttonEnter.Name = "buttonEnter";
             this.buttonEnter.Size = new System.Drawing.Size(197, 44);
             this.buttonEnter.TabIndex = 6;
@@ -177,7 +178,7 @@ namespace Досуг
             this.pictureBoxCaptcha.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBoxCaptcha.Location = new System.Drawing.Point(130, 274);
             this.pictureBoxCaptcha.Name = "pictureBoxCaptcha";
-            this.pictureBoxCaptcha.Size = new System.Drawing.Size(155, 69);
+            this.pictureBoxCaptcha.Size = new System.Drawing.Size(156, 69);
             this.pictureBoxCaptcha.TabIndex = 5;
             this.pictureBoxCaptcha.TabStop = false;
             // 
@@ -202,6 +203,7 @@ namespace Досуг
             this.MinimumSize = new System.Drawing.Size(705, 715);
             this.Name = "AutorizedForm";
             this.Text = "Авторизация";
+            this.Load += new System.EventHandler(this.AutorizedForm_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
